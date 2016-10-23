@@ -1,0 +1,58 @@
+
+.bottom {
+	background-color: rgb(74,81,109);
+}
+
+.bottom-info {
+	width: 1000px;
+	height: 720px;
+	margin:  0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #ffffff;
+}
+
+.bottom-info .logo{
+	background:url(../images/logo-small.png) no-repeat;
+	height :32px;
+	width: 48px;
+	margin-bottom: 20px;
+}
+
+.bottom-info .name{
+	margin-bottom: 40px;
+}
+
+.bottom-info .address{
+	margin-top: 10px;
+	margin-bottom: 80px;
+}
+
+.logoes {
+	width: 1000px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 400px;
+	box-sizing: border-box;
+}
+
+.logoes div{
+	height: 48px;
+	width: 48px;
+}
+
+.logoes .qq{
+	background:url(../images/QQ.png) ;
+}
+
+.logoes .dd{
+	background:url(../images/dingding.png) ;
+}
+
+.logoes .wx{
+	background:url(../images/wechat.png) ;
+}
