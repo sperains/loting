@@ -35,11 +35,11 @@ class Container extends React.Component{
         var me = this ;
         console.log(me.refs.spinner)
         console.log(ReactDOM.findDOMNode(me.refs.spinner))
-        // setInterval(function(){
-        //     me.setState({
-        //     isHidden: false 
-        // })
-        // } , 2000)
+        setInterval(function(){
+            me.setState({
+            isHidden: false 
+        })
+        } , 2000)
         
     }
 
@@ -50,7 +50,7 @@ class Container extends React.Component{
 
     //是否让组件进行更新,返回true 或者false
     shouldComponentUpdate(nextProps, nextState) {
-        
+        return true ;
     }
 
     //组件状态更新时调用
