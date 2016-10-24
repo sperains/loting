@@ -120,3 +120,67 @@
 .contact-window_top .close:hover{
 	background:url(../images/close-hover.png);
 }
+
+
+@media (max-width: 750px) {
+	.stats {
+		width: 100%;
+	}
+
+	.stats-content{
+		width: 100%;
+	}
+
+	.stats-info{
+		padding-top: 5%;
+	}
+
+	.stats-info_item{
+		height: 20%;
+	}
+
+	.contact-us{
+		width: 100%;
+		height: auto;
+		box-sizing : border-box;
+		padding: 3rem 2rem ;
+	}
+
+	.contact-us input{
+		width: 80%;
+	}
+
+	.contact-us span{
+		width: 20%;
+	}
+
+	.contact-window{
+		position: fixed;
+		display: flex;
+		flex-direction: column;
+		top: 20%;
+		width: 80%;
+		height: 24rem;
+	}
+
+	.contact-window_top{
+		height: 6rem;
+		line-height: 6rem;
+	}
+
+	.contact-window_info{
+		width: 100%;
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		justify-content: center;
+	}
+	
+	.contact-window_info img{
+		padding: 0;
+	}
+
+
+}

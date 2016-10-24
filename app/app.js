@@ -35,7 +35,7 @@ class Container extends React.Component{
         var me = this ;
         console.log(me.refs.spinner)
         console.log(ReactDOM.findDOMNode(me.refs.spinner))
-        setInterval(function(){
+        setTimeout(function(){
             me.setState({
             isHidden: false 
         })

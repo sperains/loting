@@ -41,8 +41,10 @@ export default class Content extends React.Component {
 						contentItems.map( item => 
 								<div key={item.imgUrl} className="content-item">
 									<img src={item.imgUrl} />
+									<div>
 									<span className="content-item_title">{item.title}</span>
 									<span className="content-item_text">{item.text}</span>
+									</div>
 								</div>
 							)
 					}
