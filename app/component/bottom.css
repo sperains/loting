@@ -61,7 +61,8 @@
 @media (max-width: 750px) {
 	
 	.bottom{
-		width: 100%;
+		width: 750px;
+		margin: 0 auto ;
 		height: 24rem;
 	}
 

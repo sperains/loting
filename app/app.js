@@ -68,6 +68,16 @@ class Container extends React.Component{
 
     render(){
 
+        // return (
+        //             <div className="content-wrap">
+        //                 <Header />
+        //                 <Content  />
+        //                 <About  />
+        //                 <Stats  />
+        //                 <Bottom />
+        //             </div>
+        //         )
+
         if(this.state.isHidden){
             return (
                     <Spinner ref="spinner"/>

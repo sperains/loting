@@ -9,11 +9,14 @@ body{
 	font-family: "微软雅黑";
 }
 
-.content-wrap{
-	display: flex;
-	flex-direction: column;
-}
-
 .hidden{
 	display: none;
+}
+
+@media (max-width: 750px) {
+	
+	.container{
+		max-width: 750px;
+	}
+
 }

@@ -124,7 +124,8 @@
 
 @media (max-width: 750px) {
 	.stats {
-		width: 100%;
+		width: 750px;
+		margin: 0 auto ;
 	}
 
 	.stats-content{
@@ -148,10 +149,13 @@
 
 	.contact-us input{
 		width: 80%;
+		height: 4rem;
 	}
 
 	.contact-us span{
 		width: 20%;
+		height: 4rem;
+		line-height: 4rem;
 	}
 
 	.contact-window{

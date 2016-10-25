@@ -57,7 +57,8 @@
 @media (max-width: 750px) {
 
 	.about{
-		width: 100%;
+		width: 750px;
+		margin: 0 auto ;
 		height: auto;
 	}
 

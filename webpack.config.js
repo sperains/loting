@@ -18,7 +18,7 @@ module.exports = {
     output: {
         path: path.join(__dirname, 'build'),
         filename: 'bundle.js',
-        publicPath: "http://localhost:8088/build/"
+        publicPath: "http://192.168.31.173:8088/build/"
     },
 
     //热部署相关配置
@@ -34,6 +34,7 @@ module.exports = {
         watchOptions: {
             aggregateTimeout: 300
         },
+        host: '192.168.31.173',
         port: '8088'
     },
 
@@ -54,20 +55,20 @@ module.exports = {
             $: 'jquery',
             jQuery: 'jquery',
             'window.jQuery': 'jquery'
-        }),
-        //生成index.html页面
-        new HtmlWebpackPlugin({
-            title: 'rains',
-            filename: 'index.html',
-            template:'index.html',      //按照此文件内容生成index.html
-            inject: 'body',
-            //favicon:'./images/logo-small.png',           //自定义logo
-            minify: false,
-            hash: true,
-            cache: false,
-            showErrors: false
-
         })
+        //生成index.html页面
+        // new HtmlWebpackPlugin({
+        //     title: 'rains',
+        //     filename: 'index.html',
+        //     template:'index.html',      //按照此文件内容生成index.html
+        //     inject: 'body',
+        //     //favicon:'./images/logo-small.png',           //自定义logo
+        //     minify: false,
+        //     hash: true,
+        //     cache: false,
+        //     showErrors: false
+
+        // })
     ],
 
     module: {
